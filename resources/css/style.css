@@ -12,6 +12,6 @@ body{
   width: 100%;
 }
 
-.nav{
+.nav li{
   display: inline-block;
 }
