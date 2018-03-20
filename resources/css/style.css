@@ -11,3 +11,7 @@ body{
   height: 69px;
   width: 100%;
 }
+
+.nav{
+  display: inline-block;
+}
