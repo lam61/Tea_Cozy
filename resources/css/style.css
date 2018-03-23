@@ -3,7 +3,7 @@ body{
   font-size: 22px;
   color: seashell;
   /*opacity: 0.9;*/
-  /*text-align: center;*/
+  text-align: center;
 }
 
 header {
@@ -46,7 +46,9 @@ li{
 
 .intro{
   background-color: black;
-  
+  position: relative;
+  top: 300px;
+
 }
 
 .each-tea{
