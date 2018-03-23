@@ -1,17 +1,72 @@
 body{
-  font-family: Helvetica;
+  /*font-family: Helvetica;*/
   font-size: 22px;
   color: seashell;
-  background-color: black;
-  opacity: 0.9;
-  text-align: center;
+  /*opacity: 0.9;*/
+  /*text-align: center;*/
 }
 
-.header{
-  height: 69px;
+header {
+  display: flex;
+  position: fixed;
   width: 100%;
+  justify-content: space-between;
+  background-color: black;
+  /*position: fixed;*/
+  height: 69px;
+  align-items: center;
+  z-index: 2;
+  border-bottom: 1px solid seashell;
+  /*width: 100%;*/
 }
 
-.nav li{
-  display: inline-block;
+#first-head{
+  font-family: cursive;
+  margin-left: 10px;
+}
+
+nav{
+  margin-right: 10px;
+}
+
+li{
+  display: inline-flex;
+  justify-content: space-between;
+  text-decoration: underline;
+  /*height: 50px;*/
+}
+
+.surface{
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  position: relative;
+  top: 69px;
+}
+
+.intro{
+  background-color: black;
+  
+}
+
+.each-tea{
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.location{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+
+}
+
+.all-locations{
+
+}
+
+.each-location{
+
+}
+
+.local{
+
 }
